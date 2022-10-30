@@ -4,6 +4,7 @@ metadata:
   labels:
     app: todonodejs
     name: mysql
+    clustername: "%$.clustername%"
   name: mysql
 spec:
   ports:
